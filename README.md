@@ -7,22 +7,27 @@ Task 1 :Build a decision tree classifier to predict whether a customer will purc
 Obtain Dataset
 - Use a dataset like Bank Marketing from UCI ML Repository
 - Contains customer demographic/behavioral data and whether they purchased a term deposit
+ 
 Preprocess Data
 - Handle missing values 
 - Encode categorical features numerically if needed
   Split into training and testing sets
+  
  Train Decision Tree
 - Import DecisionTreeClassifier from sklearn.tree
 - Set hyperparameters like max_depth, min_samples_split to control overfitting
 - Fit the classifier to training data
+  
 Evaluate Model
 - Make predictions on test set
 - Calculate metrics like accuracy, precision, recall, F1-score
 - Visualize decision tree to interpret important features
+  
 Optimize Model
 - Try different hyperparameter values to improve performance
 - Use techniques like pruning to reduce overfitting
 - Perform feature selection to identify best predictors
+  
 Make Predictions
 - Use trained model to predict if new customers will purchase
 - Model outputs binary prediction (yes/no) based on attributes
